@@ -6,15 +6,22 @@
  */
 int main(void)
 {
-	int b;
-
-	for (b = 48; b < 94; b++)
+	int j, k;
+	for (j = 48; j < 58; j++)
 	{
-		putchar(b);
-		if (b != 93)
+		for (k = 49; k < 58; k++)
 		{
-			putchar(',');
-			putchar(' ');
+			if (j != k && j < k)
+			{
+				putchar(j);
+				putchar(k);
+				if (j == 56 && k == 57)
+				{
+					break;
+				}
+				putchar(',');
+				putchar(' ');
+			}
 		}
 	}
 	putchar('\n');
