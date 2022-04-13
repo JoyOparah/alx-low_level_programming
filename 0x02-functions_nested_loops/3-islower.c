@@ -1,13 +1,10 @@
 #include "main.h"
 /**
- * int _islower(int c) - 
- *
- * Return: Always 0 (Success)
+ * _islower - check for lower case 
+ *@c : character to check the case
+ * Return: Always 0 or 1
  */
 int _islower(int c)
 {
-	int (c);
-
-	for (c = 97; c <= 122; c++)
-	_putchar('\n');
+	return (c >= 97 && c <= 122);
 }
