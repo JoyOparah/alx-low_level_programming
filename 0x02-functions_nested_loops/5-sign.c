@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- *
  * print_sign - check runners
  *@n : number to check
  * Return: Always 0 (Success)
