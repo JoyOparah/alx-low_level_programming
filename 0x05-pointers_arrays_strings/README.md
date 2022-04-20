@@ -1,1 +1,1 @@
-arithmetic operators
+pointers and arrays
